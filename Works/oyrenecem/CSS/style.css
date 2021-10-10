@@ -1,0 +1,183 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: bord
+    er-box;
+}
+.bashliq{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(78, 63, 51, 0.979);
+
+}
+.info-item span {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(199, 191, 191);
+}
+
+.info-item span i {
+    color: #dfd2bc;
+    margin-right: 10px;
+} 
+#header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../shekiller/ofis\ ssl\ 2\ jpeg.jpg);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    background-color: white;
+    width: 200px;
+    height: 98px;
+}
+/* .sub-nav ul{
+    display: flex;
+}
+.sub-nav ul li{
+    display: none;
+} */
+.menu ul{
+    display: flex;
+    padding: 45px;
+}
+.menu ul li{
+    margin-left: 93px;
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    font-family:  'Titillium Web', sans-serif;
+
+}
+.icon{padding: 45px;
+    font-size: 19px;
+    color: white;
+    
+}
+.icon span{
+    padding: 9px;
+}
+.list i {
+    color: white;
+    padding: 45px;
+}
+.yazi{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yazi {
+    display: flex;
+    flex-direction: column;
+}
+.yazi h1{text-align: center;
+    color: white;
+    font-size: 60px;
+
+}
+.yazi h2{text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.active, .menu ul li:hover{
+background-color: rgb(48, 32, 12);
+border-radius: 10px;
+}
+.sub-nav{
+    display: none;
+}
+.menu ul li:hover .sub-nav{
+    display: block;
+    position: absolute;
+    background-color: burlywood;
+    margin-top: 15px;
+    /* margin-left: -15px; */
+    font-size: 10px;
+}
+.menu ul li:hover .sub-nav ul {
+    display: block;
+    background-color: burlywood;
+}
+.menu ul li:hover .sub-nav ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb(243, 242, 242);
+    /* background: transparent; */
+    text-align: left;
+    border-radius: 0;
+    cursor: pointer;
+}
+.menu ul li:hover .sub-nav ul li a:hover {
+    color: rgb(245, 240, 240);
+}
+#imza {
+    background-image: url(../shekiller/bg1-home1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+section {
+    position: relative;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.status-text{
+    width: calc((100%/12)*10)
+
+}
+.profil {
+    width: calc((100%/12)*6)
+}
+.profil-shekil img{
+   border-radius: 500px;
+   width: 140px;
+   height: 140px;
+}
+.ad-vezife{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ad-vezife {
+    padding: 20px;
+    flex-direction: column;
+    display: inline-block;
+    
+}
+.ad-vezife h1{text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.ad-vezife p{text-align: center;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+}
+.status-text p{
+    color: #FFF;
+    font-family: "Titillium Web",Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    padding-right: 20px;
+    margin-left: 60px;
+}
