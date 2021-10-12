@@ -130,6 +130,7 @@ border-radius: 10px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-size:100% 100%; */
     padding-top: 90px;
     padding-bottom: 90px;
 }
@@ -255,7 +256,6 @@ section {
     position: relative;
     color: rgb(15, 11, 11);
     font-weight: 300;
-    margin-bottom: 0;
     font-size: 42px;
  }
  .adclass .number-stroke{
@@ -333,13 +333,14 @@ section {
 .ad-vezife{
     position: absolute;
  right:42%
-    top: 8%;
 }
-#gallery{ border: 1px solid black;
+#gallery{ 
+    border: 1px solid black;
     width: 100%;
     height: 360px;
 }
-.g-container{  position: relative;
+.g-container{  
+    position: relative;
     width: 100%;
     height: 360px;
     display: grid;
@@ -361,7 +362,6 @@ section {
     left: 2%;
     font-family: "Titillium Web", sans-serif;
     color: #fff;
-    
     font-size: 30px;
 }
 .g-container-text2 {
@@ -384,6 +384,175 @@ section {
     
     font-size: 30px;
 }
+/* katalog start */
+#katalog{ 
+    border: 1px solid black;
+    width: 100%;
+    height: 1100px;
+}
+.k-container1{ 
+    position: relative;
+    width: 100%;
+    height: 476px;
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 2fr 1fr 1fr ;
+}
+.k-container2{ 
+    position: relative;
+    width: 100%;
+    height: 476px;
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-columns: 1fr 1fr 2fr ;
+}
 
+.k-container-shekil1 img{
     
-
+    height:476px ;
+    width:955px ;
+}
+.k-container-shekil2 img{
+    height:476px ;
+    width:476px ;
+}
+.k-container-shekil3 img{
+    height:476px ;
+    width:475px ;
+}
+.k-container-shekil4 img{
+    height:476px ;
+    width:475px ;
+}
+.k-container-shekil5 img{
+    height:476px ;
+    width:475px ;
+}
+.k-container-shekil6 img{
+    height:476px ;
+    width:955px ;
+}
+.k-container-shekil1 h1{
+    position: absolute ;
+    bottom:3%;
+}
+.k-container-shekil1 h2{
+    background: black;
+    width: 205px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil2 h2{
+    background: black;
+    width: 205px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil3 h2{
+    background: black;
+    width: 205px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil4 h2{
+    background: black;
+    width: 205px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil5 h2{
+    background: black;
+    width: 205px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil6 h2{
+    background: black;
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+}
+.k-container-shekil1 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
+.k-container-shekil2 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
+.k-container-shekil3 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
+.k-container-shekil4 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
+.k-container-shekil5 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
+.k-container-shekil6 span{
+    width: 276px;
+    position: relative;
+    bottom: 15%;
+    z-index: 6;
+    left: 6%;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    background: black;
+}
