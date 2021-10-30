@@ -216,7 +216,11 @@ section {
 }
 .etraflibutton a{
     color: white;
-    font-size: 17px;
+ position: absolute;
+font-size: 25px;
+margin-top: 10px;
+margin-left: -43px;
+text-decoration: none;
 }
 .aboutyazi{
     width: 400px;
@@ -264,64 +268,95 @@ section {
     left: calc(100% - 23px);
     bottom: -30px;
 }
-.col-12 {
-        text-align: center;
-        margin-left: 300px;
-        margin-top: 100px;
-    width: calc((100%/12)*12)
+/* start */
+#our-services{
+    width: 100%;
+    height: 700px;
 }
-.col-12 h1{
-    font-size: 42px;
-    margin-bottom: 0;
-    line-height: 48px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 0 0 20px;
-    color: #1a1a1a;
+.os-container{
+    width: 100%;
+    
 }
-.col-12 span{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #9f9e9e;
-    display: inline-block;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-.row-4 {
-    width: calc((100%/12)*4);
-    padding: 200px;
-}
-.row-4 h1{
-    font-size: 42px;
-    margin-bottom: 0;
-    line-height: 48px;
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 400;
-    line-height: 1.4;
-    margin: 0 0 20px;
-    color: #1a1a1a;
-    width: 300px;
-}
-.row-4 span{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #9f9e9e;
-    display: inline-block;
-    margin-bottom: 6px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    width: 300px;
-}
-.qutular{
-    justify-content: center;
+.os-head{
+    width: 100%;
+    height: 200px;
     display: flex;
-    padding: 10px;
-    margin-left: 700px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
+.os-box{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    position: relative;
+    top: 20%;
+    width: 70%;
+    margin: auto;
+    
+}
+.os-head h1{ padding-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9f9e9e;
+}
+.os-head h2{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+
+}
+.os-head span{
+    font-size: 22px;
+}
+
+.os-item{ 
+    background-image: url(../shekiller/bg-iconbox1.jpg);
+    position: relative;
+    left: 25%;
+    bottom: 10%;
+    width: 346px;
+    height: 350px;
+}
+.os-item span{
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.os-item img{
+     position: relative;
+    left: 35%;
+    margin-top: 15%;
+
+}
+.os-item h1{
+    position: relative;
+    left: 21%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}.xheller{
+    margin-left: 30px;
+}
+
+.md{
+    margin-left: 10px;
+}
+.dp{
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* end */
+
 .container{
     width: 1200px;
     height: 466px;
@@ -386,9 +421,8 @@ section {
 }
 /* katalog start */
 #katalog{ 
-    border: 1px solid black;
     width: 100%;
-    height: 1100px;
+    height: 952px;
 }
 .k-container1{ 
     position: relative;
@@ -502,7 +536,7 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
 }
@@ -512,7 +546,7 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
 }
@@ -522,7 +556,7 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
 }
@@ -532,7 +566,7 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
 }
@@ -542,7 +576,7 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
 }
@@ -552,7 +586,158 @@ section {
     bottom: 15%;
     z-index: 6;
     left: 6%;
-    color: white;
+    color: #9f9e9e;
     font-family: "Josefin Sans", sans-serif;
     background: black;
+}
+/* footer */
+#footer{
+     width: 100%;
+height: 500px;
+    background: black;
+}
+.footer-main{ position: absolute;
+    top: 15%;
+    left: 5%;
+    height:350px;
+    width: 90%;
+    border: 1px solid red;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    
+   
+}
+.footer-cop{position: absolute;
+    bottom: 0%;
+    height: 75px;
+    width: 100%;
+   background-color: black;
+   border: 1px solid white;
+}
+/* start team */
+.team-container{
+    width: 100%;
+    
+}
+.team-head{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+}.team-head h1{ padding-top: 50px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #9f9e9e;
+}
+.team-head h2{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+
+}
+.team-head span{
+    font-size: 22px;
+}
+.team-box{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    position: relative;
+    width: 70%;
+    margin: auto;  
+}
+.team-item img{
+    position: relative;
+   margin-top: 15%;
+   height: 320px;
+
+}
+#team{ 
+    background-image: url(../shekiller/bg1-team.jpg);
+    width: 100%;
+    height: 930px;
+}  
+/* start inanılmaz daxili dizayn */
+#getintouch {
+    background-image: url(../shekiller/bg1-home1.jpg);
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    flex-direction: row;
+    display: flex;
+}
+.getintouch{
+color: #FFF;
+font-family: "Titillium Web",Sans-serif;
+line-height: 48px;
+padding-right: 10%;
+margin-left: 20%;
+}
+.getintouch h1{
+    font-size: 50px;
+}
+.getintouch h2{
+    font-size: 20px;
+}
+.git-button{
+background-color: white;
+color: black;
+width: 200px;
+height: 50px;
+text-align: center;
+margin-top: 30px;
+}
+.git-button a{
+position: absolute;
+color: black;
+font-size: 25px;
+margin-top: 10px;
+margin-left: -43px;
+text-decoration: none;
+} 
+/* start shirketdeyer */
+#company{
+    width: 100%;
+}
+.company-container{
+    height: 1000px;
+    width: 89%;
+    display: flex;
+    position: relative;
+    border: 1px solid black;
+    left: 10%;
+}
+
+.cimg{
+    position: relative;
+   left: 45%;
+}
+.cmain{
+    position: absolute;
+    left: 11%;
+    border: 1px solid red;
+    height: 1000px;
+    width: 500px;
+}
+.cmain h1{
+    font-size: 15px;
+    color: #afafaf;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.cmain h2{
+    font-size: 25px;
+    font-family: 'Zen Kurenaido', sans-serif;
+
+}
+.cmhead {
+    position: relative;
+    top: 5%;
 }
